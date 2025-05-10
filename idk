@@ -1,0 +1,531 @@
+def medieval_calculator(): def medieval_calculator():
+    print("🛡️ Welcome, brave knight, to the Medieval Calculator! ⚔️")
+        print("Where numbers are your swords and logic is your armor.\n")
+            print("Choose your operation:")
+                print("1. Combine Gold (Addition)")
+                    print("2. Deduct Taxes (Subtraction)")
+                        print("3. Forge Weapons (Multiplication)")
+                            print("4. Split the Kingdom (Division)\n")
+
+                                # Get user choice
+                                    choice = input("Enter the number of your noble quest (1/2/3/4): ")
+
+                                        # Validate choice
+                                            if choice not in ['1', '2', '3', '4']:
+                                                    print("☠️ Invalid choice! The kingdom descends into chaos.")
+                                                            return
+                                                                
+                                                                    # Get numbers
+                                                                        try:
+                                                                                num1 = float(input("\nEnter the first number (gold coins, perhaps?): "))
+                                                                                        num2 = float(input("Enter the second number (more gold coins?): "))
+                                                                                            except ValueError:
+                                                                                                    print("⚠️ That's not a number! The court jester mocks your lack of skill.")
+                                                                                                            return
+
+                                                                                                                # Perform calculation
+                                                                                                                    if choice == '1':
+                                                                                                                            result = num1 + num2
+                                                                                                                                    operation = "Combine Gold"
+                                                                                                                                        elif choice == '2':
+                                                                                                                                                result = num1 - num2
+                                                                                                                                                        operation = "Deduct Taxes"
+                                                                                                                                                            elif choice == '3':
+                                                                                                                                                                    result = num1 * num2
+                                                                                                                                                                            operation = "Forge Weapons"
+                                                                                                                                                                                elif choice == '4':
+                                                                                                                                                                                        if num2 == 0:
+                                                                                                                                                                                                    print("🏰 Division by zero? The kingdom cannot be split further!")
+                                                                                                                                                                                                                return
+                                                                                                                                                                                                                        result = num1 / num2
+                                                                                                                                                                                                                                operation = "Split the Kingdom"
+
+                                                                                                                                                                                                                                    # Display result with flair
+                                                                                                                                                                                                                                        print(f"\n✨ The result of your quest to '{operation}' is: {result} ✨")
+                                                                                                                                                                                                                                            print("May your calculations bring prosperity to the realm!\n")
+
+                                                                                                                                                                                                                                            # Run the calculator
+                                                                                                                                                                                                                                            if __name__ == "__main__":
+                                                                                                                                                                                                                                                medieval_calculator()
+    print("🛡️ Welcome, brave knight, to the Medieval Calculator! ⚔️")
+        print("Where numbers are your swords and logic is your armor.\n")
+            print("Choose your operation:")
+                print("1. Combine Gold (Addition)")
+                    print("2. Deduct Taxes (Subtraction)")
+                        print("3. For
+
+
+)
+
+
+
+
+
+)
+
+
+
+
+
+
+
+)
+
+
+
+
+
+
+
+
+
+)
+
+
+
+
+
+
+
+
+
+
+
+)
+
+
+)
+
+
+
+
+
+
+
+
+
+
+
+)
+
+                    print("4. Split the Kingdom (Division)\n")
+
+                                # Get user choice
+                                    choice = input("Enter the number of your noble quest (1/2/3/4): ")
+
+                                        # Validate choice
+                                            if choice not in ['1', '2', '3', '4']:
+                                                    print("☠️ Invalid choice! The kingdom descends into chaos.")
+                                                            return
+                                                                
+                                                                    # Get numbers
+                                                                        try:
+                                                                                num1 = float(input("\nEnter the first number (gold coins, perhaps?): "))
+                                                                                        num2 = float(input("Enter the second number (more gold coins?): "))
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+                                                                     except ValueError:
+                                                                                                    print("⚠️ That's not a number! The court jester mocks your lack of skill.")
+                                                                                                            return
+
+                                                                                                                # Perform calculation
+                                                                                                                    if choice == '1':
+                                                                                                                            result = num1 + num2
+                                                                                                                                    operation = "Combine Gold"
+                                                                                                                                        elif choice == '2':
+                                                                                                                                                result = num1 - num2
+                                                                                                                                                        operation = "Deduct Taxes"
+                                                                                                                                                            elif choice == '3':
+                                                                                                                                                                    result = num1 * num2
+                                                                                                                                                                            operation = "Forge Weapons"
+                                                                                                                                                                                elif choice == '4':
+                                                                                                                                                                                        if num2 == 0:
+                                                                                                                                                                                                    print("🏰 Division by zero? The kingdom cannot be split further!")
+                                                                                                                                                                                                                return
+                                                                                                                                                                                                                        result = num1 / num2
+                                                                                                                                                                                                                                operation = "Split the Kingdom"
+
+                                                                                                                                                                                                                                    # Display result with flair
+                                                                                                                                                                                                                                        print(f"\n✨ The result of your quest to '{operation}' is: {result} ✨")
+                                                                                                                                                                                                                                            print("May your calculations bring prosperity to the realm!\n")
+
+                                                                                                                                                                                                                                            # Run the calculator
+                                                                                                                                                                                                                                            if __name__ == "__main__":
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
